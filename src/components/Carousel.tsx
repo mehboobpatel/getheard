@@ -1,4 +1,3 @@
-
 "use client";
 
 import React from 'react';
@@ -24,7 +23,7 @@ const Carousel: React.FC = () => {
 
   return (
     <section className="py-8 w-full" style={{
-        backgroundImage: 'url("https://source.unsplash.com/random/1920x300/?ocean")',
+        backgroundImage: 'url("https://picsum.photos/1920/300?blur=2")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundColor: 'rgba(255, 255, 255, 0.1)',

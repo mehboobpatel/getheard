@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
     <section
       className="py-24 text-center w-full text-foreground"
       style={{
-        backgroundImage: 'url("https://source.unsplash.com/random/1920x1080/?ocean,sunset,person")',
+        backgroundImage: 'url("https://picsum.photos/1920/1080?blur=2")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundColor: 'rgba(255, 255, 255, 0.3)',
