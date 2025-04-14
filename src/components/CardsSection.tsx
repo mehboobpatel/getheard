@@ -1,3 +1,4 @@
+
 "use client";
 
 import React from 'react';
@@ -58,7 +59,7 @@ const CardsSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {cardsData.map((card, index) => (
             <div key={index} className="card">
-              <h3 className="text-xl font-semibold mb-2">{card.title}</h3>
+              <h3 className="text-xl font-semibold mb-2 text-indigo-800">{card.title}</h3>
               <p className="text-gray-600 text-sm mb-2">{card.statLine}</p>
               <p className="text-gray-700">{card.description}</p>
             </div>

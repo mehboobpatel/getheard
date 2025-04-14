@@ -5,12 +5,17 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  /* Add a background image with a subtle blur effect */
+  background-image: url('https://picsum.photos/1920/1080?blur=2'); /* Replace with your image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps the background fixed during scroll */
 }
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
+    --background: 220 30% 95%; /* Light grey background for better contrast */
+    --foreground: 220 20% 20%; /* Dark grey text for readability */
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
@@ -88,22 +93,24 @@ body {
   }
 }
 
+/* Applying consistent styles to card elements */
 .card {
-  @apply p-4 rounded-lg shadow-md;
+  @apply p-6 rounded-lg shadow-md bg-white bg-opacity-70 backdrop-blur-md border border-gray-200;
 }
 
+/* Form styling */
 .form-control {
   @apply mb-4;
 }
 
 .form-label {
-  @apply block text-gray-700 text-sm font-bold mb-2;
+  @apply block text-indigo-700 text-sm font-bold mb-2;
 }
 
 .input,
 .textarea,
 .select {
-  @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none;
+  @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none  ;
 }
 
 .radio-group {
@@ -118,4 +125,12 @@ body {
   @apply flex items-center mb-2;
 }
 
+/* Apply background and text styles to sections */
+section {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust transparency as needed */
+    backdrop-filter: blur(10px); /* Add a blur effect */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
 

@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 interface Founder {
@@ -21,7 +22,17 @@ const foundersData: Founder[] = [
 
 const Founders: React.FC = () => {
   return (
-    <section className="py-12 bg-BFFCC6 w-full">
+    <section className="py-12 w-full" style={{
+        backgroundImage: 'url("https://source.unsplash.com/random/1920x600/?people")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundColor: 'rgba(255, 255, 255, 0.1)',
+        backdropFilter: 'blur(5px)',
+        color: '#4A55A2',
+        padding: '3rem',
+        borderRadius: '1rem',
+        textAlign: 'center'
+      }}>
       <h2 className="text-3xl font-semibold text-center mb-8">Who We Are</h2>
       <div className="flex justify-center gap-8">
         {foundersData.map((founder, index) => (

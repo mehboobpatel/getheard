@@ -1,3 +1,4 @@
+
 "use client";
 
 import React from 'react';
@@ -22,7 +23,17 @@ const Carousel: React.FC = () => {
   }, []);
 
   return (
-    <section className="py-8 bg-secondary w-full">
+    <section className="py-8 w-full" style={{
+        backgroundImage: 'url("https://source.unsplash.com/random/1920x300/?ocean")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundColor: 'rgba(255, 255, 255, 0.1)',
+        backdropFilter: 'blur(5px)',
+        color: '#4A55A2',
+        padding: '3rem',
+        borderRadius: '1rem',
+        textAlign: 'center'
+      }}>
       <div className="container mx-auto text-center">
         <h2 className="text-2xl font-semibold mb-4">Inspirational Quote</h2>
         <p className="text-lg italic">{quotes[currentQuoteIndex]}</p>
