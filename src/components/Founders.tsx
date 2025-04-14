@@ -22,17 +22,7 @@ const foundersData: Founder[] = [
 
 const Founders: React.FC = () => {
   return (
-    <section className="py-12 w-full" style={{
-        backgroundImage: 'url("https://picsum.photos/1920/600?blur=2")',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundColor: 'rgba(255, 255, 255, 0.1)',
-        backdropFilter: 'blur(5px)',
-        color: '#4A55A2',
-        padding: '3rem',
-        borderRadius: '1rem',
-        textAlign: 'center'
-      }}>
+    <section className="py-12 w-full">
       <h2 className="text-3xl font-semibold text-center mb-8">Who We Are</h2>
       <div className="flex justify-center gap-8">
         {foundersData.map((founder, index) => (

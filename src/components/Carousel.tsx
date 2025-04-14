@@ -23,10 +23,10 @@ const Carousel: React.FC = () => {
 
   return (
     <section className="py-8 w-full" style={{
-        backgroundImage: 'url("https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?h=400&w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGFwcGluZXNzfGVufDB8MHwwfHx8Mg%3D%3D")',
+        backgroundImage: 'url("https://images.unsplash.com/photo-1559677437-62c20d42dd27?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundColor: 'rgba(255, 255, 255, 0.4)',
+        backgroundColor: 'rgba(0, 0, 0, 0.4)',
         backdropFilter: 'blur(5px)',
         color: '#4A55A2',
         padding: '3rem',
@@ -34,7 +34,7 @@ const Carousel: React.FC = () => {
         textAlign: 'center'
       }}>
       <div className="container mx-auto text-center">
-        <h2 className="text-2xl font-semibold mb-4">Inspirational Quote</h2>
+        <h2 className="text-2xl font-semibold mb-4" style={{color: 'white'}}>Inspirational Quote</h2>
         <p className="text-lg italic" style={{color: 'white', fontWeight: 'bold'}}>{quotes[currentQuoteIndex]}</p>
       </div>
     </section>
