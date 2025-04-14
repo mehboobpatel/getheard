@@ -35,11 +35,10 @@ const Carousel: React.FC = () => {
       }}>
       <div className="container mx-auto text-center">
         <h2 className="text-2xl font-semibold mb-4">Inspirational Quote</h2>
-        <p className="text-lg italic">{quotes[currentQuoteIndex]}</p>
+        <p className="text-lg italic" style={{color: 'white', fontWeight: 'bold'}}>{quotes[currentQuoteIndex]}</p>
       </div>
     </section>
   );
 };
 
 export default Carousel;
-
