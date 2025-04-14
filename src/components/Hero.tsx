@@ -18,7 +18,11 @@ const Hero: React.FC = () => {
     >
       <h1 className="text-5xl font-bold mb-4" style={{
           fontFamily: 'serif',
-          color: '#ADD8E6'
+          fontSize: '6rem',
+          fontWeight: 'bold',
+          backgroundImage: 'linear-gradient(to right, #e6e6e6, #f2f2f2)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent'
         }}>GetHeard</h1>
       <p className="text-xl italic" style={{
           fontFamily: 'sans-serif',
