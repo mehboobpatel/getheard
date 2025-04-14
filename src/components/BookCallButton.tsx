@@ -21,7 +21,7 @@ const BookCallButton: React.FC = () => {
       <DialogTrigger asChild>
         <Button variant="outline">Book a Free Call</Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px]">
+      <DialogContent className="sm:max-w-[90vw] md:max-w-[75vw] lg:max-w-[60vw] xl:max-w-[50vw]">
         <DialogHeader>
           <DialogTitle>Book a Free Call</DialogTitle>
           <DialogDescription>
