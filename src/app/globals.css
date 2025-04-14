@@ -6,7 +6,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   /* Add a background image with a subtle blur effect */
-  background-image: url('https://picsum.photos/1920/1080?blur=2'); /* Replace with your image URL */
+  /*background-image: url('https://picsum.photos/1920/1080?blur=2'); /* Replace with your image URL */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Keeps the background fixed during scroll */
@@ -133,4 +133,5 @@ section {
     margin-bottom: 2rem;
     border-radius: 1rem;
 }
+
 
