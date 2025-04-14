@@ -23,10 +23,10 @@ const Carousel: React.FC = () => {
 
   return (
     <section className="py-8 w-full" style={{
-        backgroundImage: 'url("https://picsum.photos/1920/300?blur=2")',
+        backgroundImage: 'url("https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?h=400&w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGFwcGluZXNzfGVufDB8MHwwfHx8Mg%3D%3D")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundColor: 'rgba(255, 255, 255, 0.1)',
+        backgroundColor: 'rgba(255, 255, 255, 0.4)',
         backdropFilter: 'blur(5px)',
         color: '#4A55A2',
         padding: '3rem',
@@ -42,3 +42,4 @@ const Carousel: React.FC = () => {
 };
 
 export default Carousel;
+
