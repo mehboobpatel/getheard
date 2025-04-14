@@ -1,8 +1,6 @@
 "use client";
 
 import React from 'react';
-import BookCallButton from '@/components/BookCallButton';
-import FaqButton from '@/components/FaqButton';
 
 const Hero: React.FC = () => {
   return (
@@ -18,12 +16,6 @@ const Hero: React.FC = () => {
         borderRadius: '1rem',
       }}
     >
-      <header className="absolute top-0 left-0 right-0 z-50 py-2">
-        <div className="container flex items-center justify-end px-4">
-          <FaqButton />
-          <BookCallButton />
-        </div>
-      </header>
       <h1 className="text-5xl font-bold mb-4" style={{
           fontFamily: 'serif',
           fontSize: '6rem',

@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-      <header className="sticky top-0 bg-background/80 backdrop-blur-sm z-50 py-2 border-b">
+      <header className="sticky top-0 bg-background/80 z-50 py-2 border-b">
           <div className="container flex items-center justify-end px-4">
             <FaqButton />
             <BookCallButton />
@@ -38,3 +38,4 @@ export default function RootLayout({
     </html>
   );
 }
+
