@@ -7,18 +7,18 @@ import FaqButton from '@/components/FaqButton';
 const Hero: React.FC = () => {
   return (
     <section
-      className="py-24 text-center w-full text-foreground"
+      className="py-24 text-center w-full text-foreground relative"
       style={{
         backgroundImage: 'url("https://images.unsplash.com/photo-1583373871860-9ba55c3cbd54?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundColor: 'rgba(0, 0, 0, 0.4)', // Opaque background
+        backgroundColor: 'rgba(0, 0, 0, 0.4)',
         backdropFilter: 'blur(5px)',
         padding: '5rem',
         borderRadius: '1rem',
       }}
     >
-      <header className="sticky top-0 bg-background/80 backdrop-blur-sm z-50 py-2 border-b">
+      <header className="absolute top-0 left-0 right-0 z-50 py-2">
         <div className="container flex items-center justify-end px-4">
           <FaqButton />
           <BookCallButton />
