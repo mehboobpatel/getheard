@@ -1,10 +1,11 @@
+"use client";
 
 import React from 'react';
 
 const Hero: React.FC = () => {
   return (
     <section className="py-24 text-center w-full" style={{
-        backgroundImage: 'url("https://source.unsplash.com/random/1920x1080/?calm")',
+        backgroundImage: 'url("https://source.unsplash.com/random/1920x1080/?ocean,sunset,person")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundColor: 'rgba(255, 255, 255, 0.1)',
@@ -21,3 +22,4 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+
