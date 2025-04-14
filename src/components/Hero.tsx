@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
     <section
       className="py-24 text-center w-full text-foreground"
       style={{
-        backgroundImage: 'url("https://unsplash.com/photos/sea-waves-crashing-on-shore-during-daytime-9UD_79sR2JQ")',
+        backgroundImage: 'url("https://images.unsplash.com/photo-1583373871860-9ba55c3cbd54?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundColor: 'rgba(0, 0, 0, 0.4)', // Opaque background
