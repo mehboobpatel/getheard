@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import {Button} from "@/components/ui/button";
 import {Alert} from "@/components/ui/alert"
 import { AlertDescription, AlertTitle } from "@/components/ui/alert"
-import {  Warning } from "lucide-react"
+import {  AlertTriangle } from "lucide-react"
 
 const EmergencyHelpline: React.FC = () => {
   const router = useRouter();
@@ -19,7 +19,7 @@ const EmergencyHelpline: React.FC = () => {
       <div className="container mx-auto px-4">
           <Alert variant="destructive">
         {/*<div className="card bg-destructive text-destructive-foreground shadow-md rounded-lg p-6 text-center">*/}
-            <Warning className="h-4 w-4" />
+            <AlertTriangle className="h-4 w-4" />
           <AlertTitle>
             Emergency: If you or any other person are feeling suicidal or are in immediate crisis - don't use this site.
           </AlertTitle>
@@ -36,3 +36,4 @@ const EmergencyHelpline: React.FC = () => {
 };
 
 export default EmergencyHelpline;
+
