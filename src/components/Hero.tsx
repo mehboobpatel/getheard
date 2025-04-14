@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
     <section
       className="py-24 text-center w-full text-foreground"
       style={{
-        backgroundImage: 'url("https://picsum.photos/1920/1080?blur=2")',
+        backgroundImage: 'url("https://unsplash.com/photos/sea-waves-crashing-on-shore-during-daytime-9UD_79sR2JQ")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundColor: 'rgba(0, 0, 0, 0.4)', // Opaque background
@@ -22,8 +22,11 @@ const Hero: React.FC = () => {
         }}>GetHeard</h1>
       <p className="text-xl italic" style={{
           fontFamily: 'sans-serif',
-          fontStyle: 'italic'
-        }}>Sometimes all we need is someone to listen.</p>
+          fontStyle: 'italic',
+          color: 'white'
+        }}>
+        "Sometimes all we need is someone to listen."
+      </p>
     </section>
   );
 };
