@@ -2,6 +2,7 @@ import type {Metadata} from 'next';
 import {Geist, Geist_Mono} from 'next/font/google';
 import './globals.css';
 import BookCallButton from '@/components/BookCallButton';
+import FaqButton from '@/components/FaqButton'; // Import the new FaqButton component
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <header className="sticky top-0 bg-background/80 backdrop-blur-sm z-50 py-2 border-b">
           <div className="container flex items-center justify-end px-4">
+            <FaqButton /> {/* Add the FaqButton component here */}
             <BookCallButton />
           </div>
         </header>
